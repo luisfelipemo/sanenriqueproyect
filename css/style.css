@@ -275,7 +275,7 @@ blockquote p {
 }
 .header-inner {
 	background: #fff;
-	height: 70px;
+	height: 80px;
 	border-bottom: 1px solid #eee;
 }
 .topbar-social {
@@ -351,7 +351,9 @@ blockquote p {
 .logo-holder img {
 	/* width: auto;
 	height:100%; */
-	width: 63px;
+	width: 100px;
+	position: relative;
+	bottom:8px;
 }
 .show-cart , .show-share-btn  , .search_btn {
 	float:right;
@@ -1459,9 +1461,9 @@ footer.main-footer{
 	bottom:10px;
 	z-index:1;
 	opacity:0.6;
-	background:url(../images/map.png) center no-repeat;
+	background:url(../images/all/torres.png) center no-repeat;
 }
-.footer-bg-pin  {
+/* .footer-bg-pin  {
 	position:absolute;
 	width:6px;
 	height:6px;
@@ -1482,8 +1484,8 @@ footer.main-footer{
 .footer-bg-pin:nth-child(4) {
 	right:190px;
 	top:220px
-}
-.footer-bg-pin:before {
+} */
+/* .footer-bg-pin:before {
 	content:'';
 	position:absolute;
 	left:0;
@@ -1494,7 +1496,7 @@ footer.main-footer{
 	border-radius:100%;
 	z-index:-1;
 	opacity:0.4;
-}
+} */
 @keyframes pulse {
     100% {
 		transform: scale(22.1);
