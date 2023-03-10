@@ -4842,6 +4842,17 @@ article:before{
 	padding: 35px 30px 15px;
 	background: #fff;
 }
+
+.frame-map{
+	padding:0% 0%;
+	border-top:2px solid var(--blue2);
+	box-sizing: border-box;
+  }
+  .frame-map iframe{
+	width: 100%;
+	min-height: 50vh;
+  }
+  
 .widget-sidebar  h3{
 	float:left;
 	width:100%;
