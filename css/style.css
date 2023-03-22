@@ -6865,6 +6865,11 @@ h4.cart-title span {
     top: 20px;
 	margin-left: 5px;
 }
+.logo-holder img{
+	width: 70px;
+    position: relative;
+    bottom: 8px;
+}
 .tc-button {
     top:100%;
     margin-top: -30px;
