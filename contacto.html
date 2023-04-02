@@ -13,7 +13,7 @@
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 	<link type="text/css" rel="stylesheet" href="css/color.css">
 	<!--=============== favicons ===============-->
-	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="shortcut icon" href="images/favicon.png">
 </head>
 
 <body>
@@ -66,60 +66,6 @@
 					</div>
 					<!-- header-search-wrap end -->
 					<!-- share-wrapper-->
-					<div class="share-wrapper  isShare">
-						<div class="close-share-btn"><i class="fal fa-long-arrow-up"></i></div>
-						<div class="share-container fl-wrap  isShare"></div>
-					</div>
-					<!-- share-wrapper  end -->
-					<!-- header-cart_wrap  -->
-					<div class="header-cart_wrap novis_cart">
-						<div class="header-cart_title">Your Cart <span><strong>3</strong> items</span></div>
-						<div class="header-cart_wrap_container fl-wrap">
-							<div class="box-widget-content">
-								<div class="widget-posts fl-wrap">
-									<ol>
-										<li class="clearfix">
-											<a href="#" class="widget-posts-img"><img src="images/all/2.jpg"
-													class="respimg" alt=""></a>
-											<div class="widget-posts-descr">
-												<a href="#" title="">All Round Set</a>
-												<div class="widget-posts-descr_calc clearfix">1 <span>x</span> $845
-												</div>
-											</div>
-											<div class="clear-cart_button"><i class="fal fa-times"></i></div>
-										</li>
-										<li class="clearfix">
-											<a href="#" class="widget-posts-img"><img src="images/all/1.jpg"
-													class="respimg" alt=""></a>
-											<div class="widget-posts-descr">
-												<a href="#" title="">Cordless Screwdriver</a>
-												<div class="widget-posts-descr_calc clearfix">2 <span>x</span> $222
-												</div>
-											</div>
-											<div class="clear-cart_button"><i class="fal fa-times"></i></div>
-										</li>
-										<li class="clearfix">
-											<a href="#" class="widget-posts-img"><img src="images/all/3.jpg"
-													class="respimg" alt=""></a>
-											<div class="widget-posts-descr">
-												<a href="#" title="">Rent a tractor</a>
-												<div class="widget-posts-descr_calc clearfix">$125 per/week</div>
-											</div>
-											<div class="clear-cart_button"><i class="fal fa-times"></i></div>
-										</li>
-									</ol>
-								</div>
-							</div>
-						</div>
-						<div class="header-cart_wrap_total fl-wrap">
-							<div class="header-cart_wrap_total_item">Subtotal : <span>$1559</span></div>
-						</div>
-						<div class="header-cart_wrap_footer fl-wrap">
-							<a href="cart.html"> View Cart</a>
-							<a href="checkout.html"> Checkout</a>
-						</div>
-					</div>
-					<!-- header-cart_wrap end  -->
 					<!-- nav-button-wrap-->
 					<div class="nav-button-wrap">
 						<div class="nav-button">
@@ -247,21 +193,21 @@
 													<fieldset>
 														<div class="row">
 															<div class="col-sm-6">
-																<input type="text" name="name" placeholder="Tu nombre *" value="" />
+																<input type="text" name="nombre" placeholder="Tu nombre *" value="" />
 															</div>
 															<div class="col-sm-6">
 																<input type="text" name="email" placeholder="Correo electrónico *" value="" />
 															</div>
 															<div class="col-sm-6">
-																<input type="text" name="phone" placeholder="Teléfono*" value="" />
+																<input type="text" name="telefono" placeholder="Teléfono*" value="" />
 															</div>
 															<div class="col-sm-6">
-																<input type="text" name="city" placeholder="Ciudad  *" value="" />
+																<input type="text" name="ciudad" placeholder="Ciudad  *" value="" />
 															</div>
 														</div>
-														<textarea name="comments" id="comments" cols="30" rows="3" placeholder="Eascribenos tu proyecto"></textarea>
+														<textarea name="mensaje" id="mensaje" cols="30" rows="3" placeholder="Eascribenos tu proyecto"></textarea>
 														<div class="clearfix"></div>
-														<button class="btn mob-conf"><i class="fa fa-angle-right"></i><span>Enviar</span> </button>
+														<button class="btn mob-conf center-box sendMessageContacto"><i class="fa fa-angle-right"></i><span>Enviar</span> </button>
 													</fieldset>
 												</form>
 											</div>
@@ -351,104 +297,17 @@
 			<!-- footer end -->
 		</div>
 		<!-- wrapper end -->
-		<!--register form -->
-		<div class="main-register-container">
-			<div class="reg-overlay close-reg-form"></div>
-			<div class="main-register-holder">
-				<div class="main-register tabs-act fl-wrap">
-					<ul class="tabs-menu">
-						<li class="current"><a href="#tab-1"><i class="fal fa-sign-in-alt"></i> Login</a></li>
-						<li><a href="#tab-2"><i class="fal fa-user-plus"></i> Register</a></li>
-					</ul>
-					<div class="close-modal close-reg-form"><i class="fal fa-times"></i></div>
-					<!--tabs -->
-					<div id="tabs-container">
-						<div class="tab">
-							<!--tab -->
-							<div id="tab-1" class="tab-content first-tab">
-								<div class="custom-form">
-									<form method="post" name="registerform">
-										<label>Username or Email Address <span>*</span> </label>
-										<input name="email" type="text" onClick="this.select()" value="">
-										<label>Password <span>*</span> </label>
-										<input name="password" type="password" onClick="this.select()" value="">
-										<div class="filter-tags">
-											<input id="check-a" type="checkbox" name="check">
-											<label for="check-a">Remember me</label>
-										</div>
-										<div class="lost_password">
-											<a href="#">Lost Your Password?</a>
-										</div>
-										<div class="clearfix"></div>
-										<button type="submit" class="log-submit-btn color-bg"><span>Log In</span></button>
-									</form>
-								</div>
-							</div>
-							<!--tab end -->
-							<!--tab -->
-							<div class="tab">
-								<div id="tab-2" class="tab-content">
-									<div class="custom-form">
-										<form method="post" name="registerform" class="main-register-form" id="main-register-form2">
-											<label>Full Name <span>*</span> </label>
-											<input name="name" type="text" onClick="this.select()" value="">
-											<label>Email Address <span>*</span></label>
-											<input name="email" type="text" onClick="this.select()" value="">
-											<label>Password <span>*</span></label>
-											<input name="password" type="password" onClick="this.select()" value="">
-											<button type="submit" class="log-submit-btn color-bg"><span>Register</span></button>
-										</form>
-									</div>
-								</div>
-							</div>
-							<!--tab end -->
-						</div>
-						<!--tabs end -->
-						<div class="log-separator fl-wrap"><span>or</span></div>
-						<div class="soc-log  fl-wrap">
-							<p>For faster login or register use your social account.</p>
-							<a href="#"><i class="fab fa-facebook-f"></i>Connect with Facebook</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--register form end -->
-        <!--contact-form-wrap -->	
-        <div class="contact-form-wrap">
-            <div class="contact-form-container">
-                <div class="contact-form-main fl-wrap">
-                    <div class="contact-form-header">
-                        <h4>Get In Touch</h4>
-                        <span class="close-contact-form"><i class="fas fa-times"></i></span>
-                    </div>
-                    <div id="contact-form" class="contact-form fl-wrap">
-                        <div id="message"></div>
-                        <form  class="custom-form" action="php/contact.php" name="contactform" id="contactform">
-                            <fieldset>
- 
-                                <input type="text" name="name" id="name" placeholder="Your Name *" value=""/>
- 
-                                <input type="text"  name="email" id="email" placeholder="Email Address*" value=""/>
-                                <textarea name="comments"  id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
-                            </fieldset>
-                            <button class="btn float-btn" style="margin-top:25px;" id="submit"><i class="fas fa-caret-right"></i><span>Send Message</span></button>
-                        </form>
-                    </div>
-                    <!-- contact form  end--> 					
-                </div>
-            </div>
-            <div class="contact-form-overlay"></div>
-        </div>
-        <!--contact-form-wrap end-->		
 	</div>
 	<!-- Main end -->
 	<!--=============== scripts  ===============-->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwJSRi0zFjDemECmFl9JtRj1FY7TiTRRo&libraries=places"></script>
 	<script src="js/jquery.min.js"></script>
+	<script src="js/contacto.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/scripts.js"></script>
 	<script src="js/map.js"></script>
+	<script
+	type="application/ld+json">{"@context" : "http://schema.org","@type" : "Organization","name": "San Enrique","url": "https://www.constructorasanenrique.com.mx","sameAs": ["https://web.facebook.com/CIDFares/","https://www.instagram.com/cid.fares/"],"address": {"@type": "PostalAddress","streetAddress": "Av. 4a. Sur Ote. 887, Asamblea de barrio, San Roque,","addressRegion": "CHIS","postalCode": "29040","addressCountry": "MX"}}</script>
 </body>
 
 </html>
