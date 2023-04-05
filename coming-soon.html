@@ -9,8 +9,10 @@
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<!--=============== css  ===============-->
+	<link type="text/css" rel="stylesheet" href="css/style.css">
 	<link type="text/css" rel="stylesheet" href="css/plugins.css">
 	<link type="text/css" rel="stylesheet" href="css/cs-style.css">
+	<link type="text/css" rel="stylesheet" href="css/color.css">
 	<!--=============== favicons ===============-->
 	<link rel="shortcut icon" href="images/favicon.ico">
 </head>
@@ -25,17 +27,84 @@
 	<!-- loader end -->
 	<!-- main start  -->
 	<div id="main">
+		<!-- progress-bar  -->
+		<div class="progress-bar-wrap">
+			<div class="progress-bar color-bg"></div>
+		</div>
+		<!-- progress-bar end -->
+		<!-- header -->
+		<header class="main-header">
+			<!-- top bar -->
+			<div class="top-bar fl-wrap">
+				<div class="container">
+					<a href="contact.html" class="tbhc_btn">Contáctanos</a>
+					<div class="top-bar-header-contact">
+						<ul>
+							<li><i class="fas fa-envelope"></i><a href="mailto:hernandez-theman@hotmail.com">
+									hernandez-theman@hotmail.com</a></li>
+							<li><i class="fas fa-map-marker-alt"></i><a href="https://goo.gl/maps/rhg8gt96HHCn3Eh67"
+									target="_blank"> 1 Sur Pte. #70 Col. Nueva Reforma. Tuxtla Gtz, Chiapas</a></li>
+							<li><i class="fas fa-phone"></i><a href="tel:+52(961)2323851"> +52(961) 232 3851</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- top bar end -->
+			<div class="header-inner fl-wrap">
+				<div class="container">
+					<!-- logo holder  -->
+					<a href="index.html" class="logo-holder"><img src="images/logo.png" alt=""></a>
+					<!-- logo holder end -->
+					<!-- header-search-wrap -->
+					<div class="header-search-wrap novis_sarch">
+						<div class="widget-inner">
+							<form action="#">
+								<input name="se" id="se" type="text" class="search" placeholder="Search..." value="" />
+								<button class="search-submit" id="submit_btn"><i class="fa fa-search transition"></i>
+								</button>
+							</form>
+						</div>
+					</div>
+					<!-- header-search-wrap end -->
+					<!-- share-wrapper-->
+					<!-- nav-button-wrap-->
+					<div class="nav-button-wrap">
+						<div class="nav-button">
+							<span></span><span></span><span></span>
+						</div>
+					</div>
+					<!-- nav-button-wrap end-->
+					<!--  navigation -->
+					<div class="nav-holder main-menu">
+						<nav style="top:6px;">
+							<ul>
+								<li><a href="index.html">Inicio</a></li>
+								<li><a href="nosotros.html">Nosotros</a></li>
+								<li><a href="servicios.html">Servicios</a></li>
+								<li><a href="proyectos.html">Proyectos</a></li>
+								<li><a href="#" class="act-link">Contacto</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- navigation  end -->
+				</div>
+			</div>
+		</header>
+		<!-- header end  -->
+		<!-- wrapper -->
 		<div class="wrapper">
 			<!--  logo  -->
 			<div class="logo-holder"><a href="index.html"><img src="images/logo2.png" alt=""></a></div>
 			<!-- logo end  -->
 			<div class="cs-content-wrapper">
 				<h3>Under Construction</h3>
-				<h2>Our Website is Coming Soon</h2>
+				<h2>HOLIS</h2>
 				<div class="cs-subcribe-form subcribe-form fl-wrap">
-					<p>Sign up now to our newsletter and you will be one of the first know when our new website as ready </p>
+					<p>Sign up now to our newsletter and you will be one of the first know when our new website as ready
+					</p>
 					<form id="subscribe" class="fl-wrap">
-						<input class="enteremail" name="email" id="subscribe-email" placeholder="Your Email" spellcheck="false" type="text">
+						<input class="enteremail" name="email" id="subscribe-email" placeholder="Your Email"
+							spellcheck="false" type="text">
 						<button type="submit" id="subscribe-button" class="subscribe-button color-bg">Send </button>
 						<label for="subscribe-email" class="subscribe-message"></label>
 					</form>
@@ -92,7 +161,8 @@
 			<div class="slider-progress-bar">
 				<span>
 					<svg class="circ" width="30" height="30">
-						<circle class="circ2" cx="15" cy="15" r="13" stroke="rgba(255,255,255,0.4)" stroke-width="1" fill="none" />
+						<circle class="circ2" cx="15" cy="15" r="13" stroke="rgba(255,255,255,0.4)" stroke-width="1"
+							fill="none" />
 						<circle class="circ1" cx="15" cy="15" r="13" stroke="#F7B90F" stroke-width="2" fill="none" />
 					</svg>
 				</span>
@@ -146,9 +216,11 @@
 							<fieldset>
 								<input type="text" name="name" id="name" placeholder="Your Name *" value="" />
 								<input type="text" name="email" id="email" placeholder="Email Address*" value="" />
-								<textarea name="comments" id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
+								<textarea name="comments" id="comments" cols="40" rows="3"
+									placeholder="Your Message:"></textarea>
 							</fieldset>
-							<button class="btn float-btn" style="margin-top:25px;" id="submit"> <span>Send Message</span></button>
+							<button class="btn float-btn" style="margin-top:25px;" id="submit"> <span>Send
+									Message</span></button>
 						</form>
 					</div>
 					<!-- contact form  end-->

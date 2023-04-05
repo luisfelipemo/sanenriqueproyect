@@ -189,27 +189,29 @@
 										<!-- CHECKOUT TABLE -->
 										<div class="row">
 											<div class="col-md-12">
-												<form class="custom-form">
+												<form method="post" action="phpmailer.php" class="formContainer custom-form">
 													<fieldset>
 														<div class="row">
 															<div class="col-sm-6">
-																<input type="text" name="nombre" placeholder="Tu nombre *" value="" />
+																<input type="text" name="nombre" placeholder="Tu nombre *" value="" required="El campo es requerido" />
 															</div>
 															<div class="col-sm-6">
-																<input type="text" name="email" placeholder="Correo electrónico *" value="" />
+																<input type="text" name="email" placeholder="Correo electrónico *" value="" required="El campo es requerido" />
 															</div>
 															<div class="col-sm-6">
-																<input type="text" name="telefono" placeholder="Teléfono*" value="" />
+																<input type="text" name="telefono" placeholder="Teléfono*" value="" required="El campo es requerido" />
 															</div>
 															<div class="col-sm-6">
-																<input type="text" name="ciudad" placeholder="Ciudad  *" value="" />
+																<input type="text" name="ciudad" placeholder="Ciudad  *" value="" required="El campo es requerido" />
 															</div>
 														</div>
 														<textarea name="mensaje" id="mensaje" cols="30" rows="3" placeholder="Eascribenos tu proyecto"></textarea>
-														<div class="clearfix"></div>
-														<button class="btn mob-conf center-box sendMessageContacto"><i class="fa fa-angle-right"></i><span>Enviar</span> </button>
+														<!-- <div class="clearfix"></div> -->
+														<button type="submit"  name="enviar" class="btn sendMessageContacto"><i class="fa fa-angle-right"></i><span>Enviar</span> </button>
 													</fieldset>
 												</form>
+												<!-- <?php include("correo.php");
+												?> -->
 											</div>
 										</div>
 										<!-- /CHECKOUT TABLE -->
